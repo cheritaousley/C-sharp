@@ -1,0 +1,8 @@
+/Users/cheritaousley/Desktop/CodingDojo/C#/C#_Fundamentals/bin/Debug/netcoreapp1.1/C#_Fundamentals.deps.json
+/Users/cheritaousley/Desktop/CodingDojo/C#/C#_Fundamentals/bin/Debug/netcoreapp1.1/C#_Fundamentals.runtimeconfig.json
+/Users/cheritaousley/Desktop/CodingDojo/C#/C#_Fundamentals/bin/Debug/netcoreapp1.1/C#_Fundamentals.runtimeconfig.dev.json
+/Users/cheritaousley/Desktop/CodingDojo/C#/C#_Fundamentals/bin/Debug/netcoreapp1.1/C#_Fundamentals.dll
+/Users/cheritaousley/Desktop/CodingDojo/C#/C#_Fundamentals/bin/Debug/netcoreapp1.1/C#_Fundamentals.pdb
+/Users/cheritaousley/Desktop/CodingDojo/C#/C#_Fundamentals/obj/Debug/netcoreapp1.1/C#_Fundamentals.AssemblyInfo.cs
+/Users/cheritaousley/Desktop/CodingDojo/C#/C#_Fundamentals/obj/Debug/netcoreapp1.1/C#_Fundamentals.dll
+/Users/cheritaousley/Desktop/CodingDojo/C#/C#_Fundamentals/obj/Debug/netcoreapp1.1/C#_Fundamentals.pdb

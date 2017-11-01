@@ -1,0 +1,8 @@
+/Users/cheritaousley/Desktop/CodingDojo/C#/Deck_of_cards/bin/Debug/netcoreapp1.1/Deck_of_cards.deps.json
+/Users/cheritaousley/Desktop/CodingDojo/C#/Deck_of_cards/bin/Debug/netcoreapp1.1/Deck_of_cards.runtimeconfig.json
+/Users/cheritaousley/Desktop/CodingDojo/C#/Deck_of_cards/bin/Debug/netcoreapp1.1/Deck_of_cards.runtimeconfig.dev.json
+/Users/cheritaousley/Desktop/CodingDojo/C#/Deck_of_cards/obj/Debug/netcoreapp1.1/Deck_of_cards.AssemblyInfo.cs
+/Users/cheritaousley/Desktop/CodingDojo/C#/Deck_of_cards/bin/Debug/netcoreapp1.1/Deck_of_cards.dll
+/Users/cheritaousley/Desktop/CodingDojo/C#/Deck_of_cards/bin/Debug/netcoreapp1.1/Deck_of_cards.pdb
+/Users/cheritaousley/Desktop/CodingDojo/C#/Deck_of_cards/obj/Debug/netcoreapp1.1/Deck_of_cards.dll
+/Users/cheritaousley/Desktop/CodingDojo/C#/Deck_of_cards/obj/Debug/netcoreapp1.1/Deck_of_cards.pdb

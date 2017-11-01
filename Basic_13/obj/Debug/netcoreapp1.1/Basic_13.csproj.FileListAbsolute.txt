@@ -1,0 +1,8 @@
+/Users/cheritaousley/Desktop/CodingDojo/C#/Basic_13/bin/Debug/netcoreapp1.1/Basic_13.deps.json
+/Users/cheritaousley/Desktop/CodingDojo/C#/Basic_13/bin/Debug/netcoreapp1.1/Basic_13.runtimeconfig.json
+/Users/cheritaousley/Desktop/CodingDojo/C#/Basic_13/bin/Debug/netcoreapp1.1/Basic_13.runtimeconfig.dev.json
+/Users/cheritaousley/Desktop/CodingDojo/C#/Basic_13/obj/Debug/netcoreapp1.1/Basic_13.AssemblyInfo.cs
+/Users/cheritaousley/Desktop/CodingDojo/C#/Basic_13/bin/Debug/netcoreapp1.1/Basic_13.dll
+/Users/cheritaousley/Desktop/CodingDojo/C#/Basic_13/bin/Debug/netcoreapp1.1/Basic_13.pdb
+/Users/cheritaousley/Desktop/CodingDojo/C#/Basic_13/obj/Debug/netcoreapp1.1/Basic_13.dll
+/Users/cheritaousley/Desktop/CodingDojo/C#/Basic_13/obj/Debug/netcoreapp1.1/Basic_13.pdb

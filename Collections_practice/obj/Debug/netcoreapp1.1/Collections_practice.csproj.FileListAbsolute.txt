@@ -1,0 +1,8 @@
+/Users/cheritaousley/Desktop/CodingDojo/C#/Collections_practice/bin/Debug/netcoreapp1.1/Collections_practice.deps.json
+/Users/cheritaousley/Desktop/CodingDojo/C#/Collections_practice/bin/Debug/netcoreapp1.1/Collections_practice.runtimeconfig.json
+/Users/cheritaousley/Desktop/CodingDojo/C#/Collections_practice/bin/Debug/netcoreapp1.1/Collections_practice.runtimeconfig.dev.json
+/Users/cheritaousley/Desktop/CodingDojo/C#/Collections_practice/obj/Debug/netcoreapp1.1/Collections_practice.AssemblyInfo.cs
+/Users/cheritaousley/Desktop/CodingDojo/C#/Collections_practice/bin/Debug/netcoreapp1.1/Collections_practice.dll
+/Users/cheritaousley/Desktop/CodingDojo/C#/Collections_practice/bin/Debug/netcoreapp1.1/Collections_practice.pdb
+/Users/cheritaousley/Desktop/CodingDojo/C#/Collections_practice/obj/Debug/netcoreapp1.1/Collections_practice.dll
+/Users/cheritaousley/Desktop/CodingDojo/C#/Collections_practice/obj/Debug/netcoreapp1.1/Collections_practice.pdb
