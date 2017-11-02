@@ -1,0 +1,8 @@
+/Users/cheritaousley/Desktop/CodingDojo/C#/Simple_CRUD/bin/Debug/netcoreapp1.1/Simple_CRUD.deps.json
+/Users/cheritaousley/Desktop/CodingDojo/C#/Simple_CRUD/bin/Debug/netcoreapp1.1/Simple_CRUD.runtimeconfig.json
+/Users/cheritaousley/Desktop/CodingDojo/C#/Simple_CRUD/bin/Debug/netcoreapp1.1/Simple_CRUD.runtimeconfig.dev.json
+/Users/cheritaousley/Desktop/CodingDojo/C#/Simple_CRUD/bin/Debug/netcoreapp1.1/Simple_CRUD.dll
+/Users/cheritaousley/Desktop/CodingDojo/C#/Simple_CRUD/bin/Debug/netcoreapp1.1/Simple_CRUD.pdb
+/Users/cheritaousley/Desktop/CodingDojo/C#/Simple_CRUD/obj/Debug/netcoreapp1.1/Simple_CRUD.AssemblyInfo.cs
+/Users/cheritaousley/Desktop/CodingDojo/C#/Simple_CRUD/obj/Debug/netcoreapp1.1/Simple_CRUD.dll
+/Users/cheritaousley/Desktop/CodingDojo/C#/Simple_CRUD/obj/Debug/netcoreapp1.1/Simple_CRUD.pdb
