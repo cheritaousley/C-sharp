@@ -1,0 +1,49 @@
+@model boilerplate.Models.LoginRegViewModel
+@using boilerplate.Models;
+<h3> Welcome, @ViewBag.CurrentUser.first_name !</h3>
+<br></br>
+
+<h3> Here is your profile description:</h3>
+        <p>@ViewBag.CurrentUser.description</p>
+
+<br></br>
+<h3> Your Professional Network</h3>
+<!--display the logged user's friends/network-->
+<table class="table table-hover"> 
+    <tr> 
+    @{
+        foreach(var accepted in @ViewBag.friends)
+        {
+            <td><a href="ViewUser/@accepted.LeftId">@accepted.Left.first_name @accepted.Left.last_name</a></td>
+            
+        }
+    }
+    
+</table>
+<br></br>
+<h3> Invitations: </h3>
+<p>The following people asked you to be in their network (Friend request)</p>
+<!--these are the users who have sent an invitation(hit the connect botton)-->
+<!--once accepted they will move to the professional network table above-->
+<table class="table table-hover"> 
+    <tr>
+        <th>Name</th>
+        <th>Action</th>
+    </tr>    
+    @{
+        foreach(var invitation in @ViewBag.invitations)
+        {
+                    <tr>
+                        <td><a href="ViewUser/@invitation.LeftId">@invitation.Left.first_name @invitation.Left.last_name</a></td>
+                        <td><a href="accept/@invitation.LeftId">Accept</a> <a href ="ignore/@invitation.LeftId">Ignore</a></td>
+                    </tr>
+        }
+    }
+</table>
+<br></br>
+<p>Explore more friends!</p>
+        <a href ="users"><button type="submit" class="btn btn-default">Find Friends!</button></a>
+     
+              
+
+    

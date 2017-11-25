@@ -1,0 +1,16 @@
+h1{
+    color: rgba(15, 194, 108, 0.63);
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+.about{
+    width: 250px;
+    text-align: center;
+    margin-left: 70px;
+}
+.wrapper{
+    margin-left: 400px;
+    margin-right: 400px;
+}

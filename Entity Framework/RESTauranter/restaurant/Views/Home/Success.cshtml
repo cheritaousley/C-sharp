@@ -1,0 +1,14 @@
+@model restaurant.Models.AddReviewViewModel
+<h3> You have successfully submitted a Review!</h3>
+<h5> Here are your recent Reviews:</h5>
+<br></br>
+@{
+    foreach(var review in @ViewBag.reviews)  
+    {
+       <p>Review for: @review.Restaurant_Name </p>  //No need to call on viewbag here, because we are looping through the view bag with review, so just like in python days, we use he variable to call on the instance of that object//
+       <p> @review.Stars </p>
+       <p> Reviewer: @review.Reviewer_Name </p>
+       <p> @review.Description </p> 
+       <hr>
+    }
+}

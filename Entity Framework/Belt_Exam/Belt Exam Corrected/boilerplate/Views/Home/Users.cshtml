@@ -1,0 +1,22 @@
+@model boilerplate.Models.LoginRegViewModel
+@using boilerplate.Models;
+<h3> Users you may want to connect with:</h3>
+<br></br>
+<table class="table table-hover">
+    <tr>
+        <th>Name</th>
+        <th>Action</th>
+    </tr>
+    @{
+        foreach(var user in @ViewBag.excluding_user)
+        {
+            <tr>
+                <td><a href="ViewUser/@user.UserId">@user.first_name @user.last_name</a></td>
+                <td><a href="connect/@user.UserId">Connect</a></td>
+            </tr>
+
+        }
+    }
+
+<!--ideally would start with all the users here with the option to connect-->
+<!--once they click connect, an invitation will be sent aka they will now appear in the invitaion list of that registed user, not to themselves as the logged in-->

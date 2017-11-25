@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Time Display!</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    </head>      
+<body>
+
+    <p> the current time and date :</p>
+    @{
+        var date = DateTime.Today;
+        var time = DateTime.Now;
+        string formattedDate = date.ToString("MMMM dd, yyyy");
+        string formattedTime = time.ToString("H:mm:ss");
+    }
+      <p>@formattedDate</p>
+      <p>@formattedTime</p>
+      
+</body>
+</html>

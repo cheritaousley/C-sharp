@@ -1,0 +1,12 @@
+@model boilerplate.Models.LoginRegViewModel
+@using boilerplate.Models
+@using System
+@{
+    ViewData["Title"] = "Home";
+}
+@{
+        <p>@ViewBag.userprofile.first_name @ViewBag.userprofile.last_name</p>
+        <p>@ViewBag.userprofile.age</p>
+        <p>@ViewBag.userprofile.description</p>
+
+}

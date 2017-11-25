@@ -1,0 +1,21 @@
+<h1>Welcome, @ViewBag.loggedUser_name ! You have been logged in as: @ViewBag.loggedUser_email</h1>
+
+<h3>Here is a list of the Woods:</h3>
+<table>
+    <tr>
+        <th><a href= "View">Trail Name</a></th>
+        <th><a href= "View">Trail Length</a></th>
+        <th><a href= "View">Elevation Change</a></th>
+    </tr>
+
+@{
+    foreach(var item in ViewBag.trailItems)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Length</td>
+            <td>@item.Elevation</td>
+        </tr>
+    }
+}
+</table>

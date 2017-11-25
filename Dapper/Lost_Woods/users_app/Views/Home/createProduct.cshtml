@@ -1,0 +1,38 @@
+@model users_app.Models.User
+@{
+    ViewData["Title"] = "New Trail";
+}
+<h3> Add a New Trail </h3>
+<form class="w-100" asp-controller="Home" asp-action="CreateProduct" method="post">
+    <div class="row">
+        <div class="col-6">
+            <div class="form-group">
+                    <label asp-for="Name">Trail Name:</label>
+                    <input asp-for="Name"/>
+            </div>
+            <div class="form-group">
+                    <label asp-for="Description">Description:</label>
+                    <input asp-for="Description"/>
+            </div>
+                <div class="form-group">
+                    <label asp-for="Length">Trail Length:</label>
+                    <input asp-for="Length"/>
+            </div>
+                <div class="form-group">
+                    <label asp-for="ElevationGain">Elevation Change:</label>
+                    <input asp-for="ElevationGain"/>
+            </div>
+                <div class="form-group">
+                    <label asp-for="Longitude">Longitude:</label>
+                    <input asp-for="Longitude"/>
+            </div>
+                <div class="form-group">
+                    <label asp-for="Latitude">Latitude:</label>
+                    <input asp-for="Latitude"/>
+            </div>
+            <div class="form-group">
+                    <button type="submit">Create Trail!</button>
+            </div>
+        </div>
+    </div>
+</form>

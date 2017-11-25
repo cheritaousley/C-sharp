@@ -1,0 +1,21 @@
+@model bank_account.Models.LoginViewModel
+<p>Log in! </p>
+    <form class="w-100" asp-controller="Home" asp-action="login" method="post">
+            <div class="form-group">
+                <label asp-for="loginEmail">Email:</label> <!--asp-for must match the model you are referencing to-->
+                <input asp-for="loginEmail"/>
+            </div>
+            <div class="form-group">
+                <label asp-for="loginPassword">Password:</label>
+                <input asp-for="loginPassword"/>
+            </div>
+            <div class="form-group">
+                 <button type="submit">Log in!</button>
+            </div>
+    </form>
+    @{
+        if(@ViewBag.fail != null)
+        {
+            @ViewBag.fail
+        }
+    }

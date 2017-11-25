@@ -1,0 +1,45 @@
+@model boilerplate.Models.LoginRegViewModel
+@using boilerplate.Models;
+<h3> Welcome, @ViewBag.CurrentUser.first_name !</h3>
+<br></br>
+
+
+<br></br>
+<h3> Current Auctions</h3>
+<!--display all auctions that user has bidded on, including their own-->
+<table class="table table-hover"> 
+    <tr>
+        <th>Product Name</th>
+        <th>Seller</th>
+        <th>Top Bid</th>
+        <th>time Remaining</th>
+        <th></th>
+    </tr>  
+    @{
+        foreach(var auction in @ViewBag.AllAuctions)
+        {
+            <tr>
+                <td><a href="ViewAuction/@auction.UserId">@auction.product_name</a></td>
+                <td>@auction.User.first_name</td>
+                <td>@auction.price</td>
+                <td>@auction.date</td>
+                if(userAuctions !=)
+                {
+                    <td><a href = "delete"> Delete</a></td>
+                }
+            </tr>
+        }
+    }
+    
+</table>
+<br></br>
+<p> Your Current Wallet: @ViewBag.CurrentUser.wallet</p>
+    <a href ="updateWallet"><button type="submit" class="btn btn-default">Refresh Wallet!</button></a>
+
+<br></br>
+<p>Create a new auction!</p>
+        <a href ="newAuction"><button type="submit" class="btn btn-default">New Auction!</button></a>
+     
+              
+
+    

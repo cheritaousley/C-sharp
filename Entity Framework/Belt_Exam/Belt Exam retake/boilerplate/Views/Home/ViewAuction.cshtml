@@ -1,0 +1,30 @@
+@model boilerplate.Models.BidderViewModel
+@using boilerplate.Models
+@using System
+@{
+    ViewData["Title"] = "Home";
+}
+@{
+    <h2> @ViewBag.auctionprofile.product_name</h2>
+    <p> created by: @ViewBag.auctionprofile.User.first_name</p>
+    <p> Time Remaining: </p>
+    <p>@ViewBag.auctionprofile.description</p>
+     <p>Asking price: @ViewBag.auctionprofile.price</p>
+<p> Make a bid on this item</p>
+
+<!-- <a href="makeBid/@ViewBag.auction_id">Bid</a> -->
+}
+<div class="row">
+            <form class="w-100" asp-controller="Home" asp-action="makeBid" method="post">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-group">
+                              <span asp-for="bidAmount"></span>
+                              <input asp-for="bidAmount" class="form-control" placeholder="Your Bid goes here"/>
+                        </div>
+                        <div class="form-group">
+                             <button type="submit" class="btn btn-default">Bid!</button>
+                        </div>
+                    </div>
+                </div>
+            </form>

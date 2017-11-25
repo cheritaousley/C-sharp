@@ -1,0 +1,17 @@
+@model bank_account.Models.RegisterViewModel
+<h3> Welcome, @ViewBag.login_user !</h3>
+<h5> Deposit/Withdraw:</h5>
+<form class="w-100" asp-controller="Home" asp-action="create" method="post">
+    <div class="form-group">
+        <button type="submit">Register!</button>
+    </div>
+</form>
+<p> Current Balance:</p>
+<br></br>
+<table>
+    <tr>
+    <th>Amount</th>
+    <th> Date</th>
+    </tr>
+
+

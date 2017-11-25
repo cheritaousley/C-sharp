@@ -1,0 +1,8 @@
+/Users/cheritaousley/Desktop/CodingDojo/C#/Time_Display/bin/Debug/netcoreapp1.1/Time_Display.deps.json
+/Users/cheritaousley/Desktop/CodingDojo/C#/Time_Display/bin/Debug/netcoreapp1.1/Time_Display.runtimeconfig.json
+/Users/cheritaousley/Desktop/CodingDojo/C#/Time_Display/bin/Debug/netcoreapp1.1/Time_Display.runtimeconfig.dev.json
+/Users/cheritaousley/Desktop/CodingDojo/C#/Time_Display/bin/Debug/netcoreapp1.1/Time_Display.dll
+/Users/cheritaousley/Desktop/CodingDojo/C#/Time_Display/bin/Debug/netcoreapp1.1/Time_Display.pdb
+/Users/cheritaousley/Desktop/CodingDojo/C#/Time_Display/obj/Debug/netcoreapp1.1/Time_Display.AssemblyInfo.cs
+/Users/cheritaousley/Desktop/CodingDojo/C#/Time_Display/obj/Debug/netcoreapp1.1/Time_Display.dll
+/Users/cheritaousley/Desktop/CodingDojo/C#/Time_Display/obj/Debug/netcoreapp1.1/Time_Display.pdb

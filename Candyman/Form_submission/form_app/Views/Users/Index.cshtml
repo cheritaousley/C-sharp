@@ -1,0 +1,54 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1> Please complete this form:</h1>
+            <div class="row">
+            <form class="w-100" action="create" method='POST'>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label class="block w-100">First Name:</label>
+                            <input class="first_name w-100" type='text' name='first_name'>
+                        </div>
+                        <div class="form-group">
+                            <label class="block w-100">Last Name:</label>
+                            <input class="last_name w-100" type="text" name='last_name'>
+                        </div>
+                         <div class="form-group">
+                            <label class="block w-100">Age:</label>
+                            <input class="last_name w-100" type="text" name='age'>
+                        </div>
+                         <div class="form-group">
+                            <label class="block w-100">Email Address::</label>
+                            <input class="last_name w-100" type="text" name='email'>
+                        </div>
+                         <div class="form-group">
+                            <label class="block w-100">Password:</label>
+                            <input class="last_name w-100" type="password" name='password'>
+                        </div>
+                        <div class="form-group">
+                            <input class="submit" name='submit' type='submit' value='Submit!'> 
+                        </div>
+                    </div>
+                </div>
+            </form>
+            </div>
+            <div>
+            @{
+                if(ViewBag.errors != null)
+                 {
+                     foreach(var error in ViewBag.errors)  //dont set an if check and make sure wherever(whichever function in controllers) these errors are being called from are being set in the controllers. So I set my errors in the success route and function
+                    {
+                        //If there are any errors for a field...
+                        if(@error.Errors.Count > 0)
+                        {
+                            // We show the first error for that field
+                            <p>@error.Errors[0].ErrorMessage</p>
+                        }
+                    }
+                 }
+                
+            }
+        </div>
+
+    

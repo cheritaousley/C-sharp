@@ -1,0 +1,8 @@
+/Users/cheritaousley/Desktop/CodingDojo/C#/Calling_Card/bin/Debug/netcoreapp1.1/Calling_Card.deps.json
+/Users/cheritaousley/Desktop/CodingDojo/C#/Calling_Card/bin/Debug/netcoreapp1.1/Calling_Card.runtimeconfig.json
+/Users/cheritaousley/Desktop/CodingDojo/C#/Calling_Card/bin/Debug/netcoreapp1.1/Calling_Card.runtimeconfig.dev.json
+/Users/cheritaousley/Desktop/CodingDojo/C#/Calling_Card/obj/Debug/netcoreapp1.1/Calling_Card.AssemblyInfo.cs
+/Users/cheritaousley/Desktop/CodingDojo/C#/Calling_Card/bin/Debug/netcoreapp1.1/Calling_Card.dll
+/Users/cheritaousley/Desktop/CodingDojo/C#/Calling_Card/bin/Debug/netcoreapp1.1/Calling_Card.pdb
+/Users/cheritaousley/Desktop/CodingDojo/C#/Calling_Card/obj/Debug/netcoreapp1.1/Calling_Card.dll
+/Users/cheritaousley/Desktop/CodingDojo/C#/Calling_Card/obj/Debug/netcoreapp1.1/Calling_Card.pdb
